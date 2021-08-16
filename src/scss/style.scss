@@ -1,0 +1,56 @@
+
+@import "_mixins";
+
+@import "_fonts";
+
+@import "_icons";
+
+
+//шриыты
+$fontFamily: "Quicksand";
+$fontSize: 16;
+
+$minWidth: 320px;
+$maxWidth: 1440;
+$maxWidthContainer: 1270;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+$mainColor: #3A3A3A;
+$orangeColor: #E89F71;
+$grayColor: #898989;
+$darkGrayColor: #616161;
+
+@import "_reset";
+
+
+body {
+  color: $mainColor;
+  background-color: #FCF8F3;
+  &._lock {
+    overflow: hidden;
+  }
+  font-family: $fontFamily;
+}
+
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  &._loaded {}
+}
+
+
+._container {
+  max-width: $maxWidthContainer + px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+@import "_header";
+@import "_footer";

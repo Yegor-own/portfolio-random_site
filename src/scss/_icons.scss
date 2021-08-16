@@ -1,0 +1,66 @@
+
+
+
+
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/icons.woff") format("woff"), url("../fonts/icons.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*="_icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-arrow-down:before {
+  content: "\e900";
+}
+._icon-arrow-left:before {
+  content: "\e901";
+}
+._icon-arrow-right:before {
+  content: "\e902";
+}
+._icon-arrow-up:before {
+  content: "\e903";
+}
+._icon-f:before {
+  content: "\e904";
+}
+._icon-folder:before {
+  content: "\e905";
+}
+._icon-home:before {
+  content: "\e906";
+}
+._icon-m:before {
+  content: "\e907";
+}
+._icon-message:before {
+  content: "\e908";
+}
+._icon-play:before {
+  content: "\e909";
+}
+._icon-telegram:before {
+  content: "\e90a";
+}
+._icon-twitter:before {
+  content: "\e90d";
+}
+._icon-upload:before {
+  content: "\e90e";
+}
